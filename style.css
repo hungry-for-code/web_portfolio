@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.para{
+    font-style: italic;
+    font-weight: bold;
+}
+.name{
+    color: rgb(255, 194, 80);
+}
+h1{
+    font-size: 50px;
+}
+a{
+    box-shadow: 10px 10px 30px gray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+    padding: 12px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 550px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+               /* css styles for our second part of the web */
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+              /* third part of our css */
+.exp{
+    color: coral;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 12px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#basic-web-dev{
+    border-left: 8px solid ;
+    border-image: linear-gradient(#ff5858,#ffc8c8);
+    border-image-slice: 1;
+}
+#noob-web-dev{
+    border-left: 8px solid ;
+    border-image: linear-gradient(#60efff,#0061ff);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+}
