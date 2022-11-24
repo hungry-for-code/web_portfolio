@@ -39,6 +39,8 @@ section{
     border-radius: 50px;
     color: white;
     font-weight: 700;
+    position: relative;
+    top: 1rem;
 }
                /* css styles for our second part of the web */
 .dream-area{
